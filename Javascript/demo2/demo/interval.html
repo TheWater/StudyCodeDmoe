@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{background: red;
+            width: 100px;
+            height: 100px;
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+<div></div>
+<script>
+    //定时器的任务轮询
+    function interval(callback,delay=100){
+        let id=setInterval(()=>{callback(id)},delay)
+    }
+    interval((timeId)=>{
+        const div=document.querySelector('div');
+        let left=parseInt(window.getComputedStyle(div).left);
+        div.style.left=left +10 +'px';
+        console.log(left);
+        if(left>=200){
+            clearInterval(timeId)
+            interval(timeId=>{
+                let width=parseInt(window.getComputedStyle(div).width);
+                div.style.width=width-10+'px';
+                if(width<=20){
+                    clearInterval(timeId)
+                }
+            },50)
+        }
+    },30)
+    console.log("Hello")
+</script>
+</body>
+</html>

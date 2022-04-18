@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+        <bean id="useDao1" class="dao.UserDao">
+            <property name="user" value="Tom">
+            </property>
+        </bean>
+        <bean id="useDao2" class="dao.UserDao">
+            <property name="user" value="Jerry">
+            </property>
+        </bean>
+        <bean id="someUser" class="dao.SomeUser">
+            <property name="someUserArray">
+                <array>
+                    <ref bean="useDao2"/>
+                    <ref bean="useDao1"/>
+                </array>
+            </property>
+
+            <property name="somList">
+                <list>
+                    <ref bean="useDao1"/>
+                    <ref bean="useDao2"/>
+                </list>
+            </property>
+
+            <property name="someMap">
+                <map>
+                    <entry key="MapTest1" value="Hello"/>
+                    <entry key="MapTest2"><value>Spring</value></entry>
+                    <entry>
+                        <key><ref bean="useDao1"/> </key>
+                        <ref bean="useDao2"/>
+                    </entry>
+                </map>
+            </property>
+
+        </bean>
+</beans>

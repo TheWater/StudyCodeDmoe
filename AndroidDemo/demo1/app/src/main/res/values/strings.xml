@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="name">您的姓名</string>
+    <string name="tx">填写姓名</string>
+    <string name="time">本学习开学的时间是</string>
+    <string name="sex">您的性别</string>
+    <string name="nan">男</string>
+    <string name="mv">女</string>
+    <string name="xingqv">您的兴趣爱好</string>
+    <string name="sing">唱歌</string>
+    <string name="dance">跳舞</string>
+    <string name="ball">打球</string>
+    <string name="cubit">提交</string>
+    <string name="school">本学期的开学时间为</string>
+</resources>

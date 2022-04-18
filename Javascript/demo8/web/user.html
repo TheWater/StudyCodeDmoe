@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.min.js"></script>
+    <script>
+        $(document).ready(function (){
+            let user=$('#username')
+            let pass=$('#password')
+            let reg=$('#reg')
+            let log=$('#log')
+            reg.click(function (){
+                $.ajax({
+                    url:"http://127.0.0.1:3000/reg",
+                    data:{username:user.val(),password:pass.val()},
+                    type:"GET",
+                    dataType:'JSON',
+                    success:function (data){
+                        if(data.flag){
+                            alert(data.msg)
+                        }else{
+                            alert("注册失败！"+data.msg)
+                        }
+                    },
+                    error:function (){
+                        alert('请求错误')
+                    }
+                });
+            });
+            log.click(function (){
+                $.ajax({
+                    url:"http://127.0.0.1:3000/login",
+                    data:{username:user.val(),password:pass.val()},
+                    type:"POST",
+                    dataType:'JSON',
+                    success:function (data){
+                        if(data.flag){
+                            alert(data.msg)
+                        }else{
+                            alert("登陆："+data.msg)
+                        }
+                    },
+                    error:function (){
+                        alert('登录请求错误')
+                    }
+                });
+            });
+        })
+    </script>
+</head>
+<body>
+账号：<input type="text" id="username" name="username"> <br>
+密码: <input type="text" id="password" name="password"> <br>
+<input type="button" id="reg" value="注册">
+<input type="button" id="log" value="登录">
+</body>
+</html>

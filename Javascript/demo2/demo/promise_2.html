@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //同步的优先级最高
+    let promise=new Promise(resolve=>{ //promise的构造函数中的代码也是同步执行的
+        setTimeout(()=>{ //到这里 丢到宏任务 等待执行
+            resolve(); //红任务已经到主线程 说以resolve()在console.log("setTimeout");
+            //的前后都不影响输出顺序
+            console.log("setTimeout");
+        },0);
+        console.log("promise");
+    }).then(value=>console.log('success'));//then默认不会执行 微
+    //除非等到通知才会把任务加入到微任务队列中 只要发一个resolve()成功通知 才会加入到微任务队列
+    //同步任务完成以后才会扫描微任务队列
+    console.log('hello')  // hello 输出以后 把setTimeout调入主线程
+
+    //先执行主线程里的任务 输出 promise hello
+    //再把异步挂起的宏任务调到主线程
+    //执行到resolve() 再创建微任务 最后输出success
+</script>
+</body>
+</html>

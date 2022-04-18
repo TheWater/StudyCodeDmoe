@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+    window.onload = function() {
+        $("#login_btn").click(function() {
+            $.ajax({
+                type: 'get',
+                url: '/user',
+                data: {
+                    act: 'login',
+                    user:　$("#user").val(),
+                    pass:　$("#pass").val(),
+                },
+                success: function(str) {
+                    var json = eval('('+str+')');
+
+                    if(json.ok) {
+                        alert('登录成功')
+                        console.log(json)
+                    } else {
+                        alert('登录失败' + json.msg)
+                        console.log(json)
+                    }
+                },
+                error: function() {
+                    alert('错误！')
+                }
+            });
+        });
+
+
+        $("#reg_btn").click(function() {
+            $.ajax({
+                type: 'get',
+                url: '/user',
+                data: {
+                    act: 'reg',
+                    user:　$("#user").val(),
+                    pass:　$("#pass").val(),
+                },
+                success: function(str) {
+                    var json = eval('('+str+')')
+
+                    if(json.ok) {
+                        alert('注册成功')
+                        console.log(json)
+                    } else {
+                        alert('注册失败' + json.msg)
+                        console.log(json)
+                    }
+
+                },
+                error: function() {
+                    alert('错误！')
+                }
+            });
+        });
+    }
+</script>
+<body>  
+    用户：<input type="text" id="user"><br>
+    密码：<input type="password" id="pass"><br>
+    <input type="button" value="注册" id="reg_btn">
+    <input type="button" value="登录" id="login_btn">
+</body>
+</html>

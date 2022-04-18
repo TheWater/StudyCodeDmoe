@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="foot">
+        <item>汉堡</item>
+        <item>薯条</item>
+        <item>可乐</item>
+        <item>玉米浓汤</item>
+    </string-array>
+</resources>

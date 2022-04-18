@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="account1" class="dao.Account">
+        <property name="id" value="1"/>
+        <property name="name" value="Tom"/>
+    </bean>
+
+    <bean id="account2" class="dao.Account">
+        <property name="id" value="2"/>
+        <property name="name" value="Jerry"/>
+    </bean>
+
+    <bean id="accountDao" class="dao.AccountDao">
+        <property name="accountMap">
+            <map>
+                <entry key="1"  value-ref="account1"/>
+                <entry key="2" value-ref="account2"/>
+            </map>
+        </property>
+    </bean>
+    <bean id="accountService" class="service.AccountService">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+</beans>

@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "*.vue": "vue",
+    "*.wpy": "vue",
+    "*.wxml": "html",
+    "*.wxss": "css",
+    "ostream": "cpp",
+    "array": "cpp",
+    "*.tcc": "cpp",
+    "string": "cpp",
+    "vector": "cpp",
+    "string_view": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "sstream": "cpp",
+    "streambuf": "cpp",
+    "iostream": "cpp"
+  }
+}

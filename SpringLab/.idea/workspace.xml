@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8edec5ef-edb8-4cc2-b818-234bfb09d015" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/androidTest/java/com/example/lab04/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/java/com/example/lab04/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/values/array.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab04/src/test/java/com/example/lab04/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/androidTest/java/com/example/lab05/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/java/com/example/lab05/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/layout/layout_demo1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/layout/layout_demo2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/layout/layout_demo3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/values/array.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab05/src/test/java/com/example/lab05/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/androidTest/java/com/example/lab6/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/java/com/example/lab6/FristActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/java/com/example/lab6/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/java/com/example/lab6/SecondActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/java/com/example/lab6/ThirdActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/layout/activity_frist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/layout/layout_demo1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/layout/layout_demo2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/layout/layout_demo3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/layout/layout_demo4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab6/src/test/java/com/example/lab6/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/androidTest/java/com/example/lab7/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/java/com/example/lab7/FristActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/java/com/example/lab7/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/java/com/example/lab7/SecondActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/layout/activity_frist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/layout/activity_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/lab7/src/test/java/com/example/lab7/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/src/main/res/layout/line_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/src/main/res/layout/relative_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/src/main/res/layout/week3_demo1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/src/main/res/layout/week3_demo2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/demo1/app/src/main/res/layout/week3_demo4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo3/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo3/CourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo3/INote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo3/IVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo3/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo3/JavaNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo3/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo3/PythonCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo3/PythonNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo3/PythonVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo4/ExetorThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo4/HuangrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo4/LazyDoubleChck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo4/LazySimpleSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo4/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo4/lazySynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo5/DeepCloneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo5/JinGuBang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo5/Monkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo5/QiTianDaShengDeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo5/QiTianDaShengShallow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/week2/demo5/ShallowCloneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/SpringLab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab04_Ioc与DI配置/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab04_Ioc与DI配置/src/main/java/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab04_Ioc与DI配置/src/main/java/dao/SomeUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab04_Ioc与DI配置/src/main/java/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab04_Ioc与DI配置/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab04_Ioc与DI配置/src/main/java/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab04_Ioc与DI配置/src/main/java/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab04_Ioc与DI配置/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab04_Ioc与DI配置/src/test/UserTset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab05_代理模式/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab05_代理模式/src/main/java/demo2/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab05_代理模式/src/main/java/demo2/JDKMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab05_代理模式/src/main/java/demo2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labClanssLab/lab05_代理模式/src/test/Dybamic1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/.idea/runConfigurations/StudentTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/Spring-02-HelloSpring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/Spring-02-HelloSpring/src/main/java/dao/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/Spring-02-HelloSpring/src/main/java/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/Spring-02-HelloSpring/src/main/java/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/Spring-02-HelloSpring/src/main/java/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/Spring-02-HelloSpring/src/main/java/service/IAcountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/Spring-02-HelloSpring/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/Spring-02-HelloSpring/src/test/java/setterInJectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-01-IoC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-01-IoC/src/main/java/com/dao/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-01-IoC/src/main/java/com/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-01-IoC/src/main/java/com/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-01-IoC/src/main/java/com/dao/UserDaoMySqlImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-01-IoC/src/main/java/com/dao/UserDaoOracleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-01-IoC/src/main/java/com/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-01-IoC/src/main/java/com/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-01-IoC/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-01-IoC/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-03-IoC2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-03-IoC2/src/main/java/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-03-IoC2/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-03-IoC2/src/test/userTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-04-DI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-04-DI/src/main/java/dao/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-04-DI/src/main/java/dao/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-04-DI/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labDemo/spring-04-DI/src/test/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codeNote/ECMAScript 6入门.assets/image-20220310155246696.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codeNote/ECMAScript 6入门.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codeNote/Spring架构与设计.assets/image-20220313162048403.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codeNote/数据结构与算法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo1/ICoure.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo1/ICoure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo1/JavaCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo1/JavaCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo1/JavaDiscountCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo1/JavaDiscountCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo1/OpenCloseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo1/OpenCloseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo2/DIPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo2/DIPTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo2/ICourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo2/ICourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo2/JavaCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo2/JavaCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo2/PythonCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo2/PythonCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo2/Tom.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo2/Tom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo3/LiveCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo3/LiveCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo3/ReplayCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo3/ReplayCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo3/SRPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo3/SRPTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo4/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo4/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo4/IEateAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo4/IEateAnimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo4/IFlyAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo4/IFlyAnimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo4/ISwimAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo4/ISwimAnimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo5/Boss.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo5/Boss.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo5/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo5/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo5/TeamLeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo5/TeamLeader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo6/ChildClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo6/ChildClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo6/MyDog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo6/MyDog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo6/ParentClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo6/ParentClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo7/People.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo7/People.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo7/ReTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo7/ReTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo7/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week1/demo7/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo1/CourseFactoryRef.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo1/CourseFactoryRef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo1/ICourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo1/ICourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo1/JavaCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo1/JavaCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo1/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/FactoryMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/FactoryMethodTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/ICourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/ICourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/ICourseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/ICourseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/JavaCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/JavaCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/JavaCourseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/JavaCourseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/PythonCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/PythonCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/PythonCourseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/target/classes/week2/demo2/PythonCourseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeNote/Spring架构与设计.md" beforeDir="false" afterPath="$PROJECT_DIR$/../codeNote/Spring架构与设计.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="26r8iS8OeiFGnoCEmTxuTquUr66" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8edec5ef-edb8-4cc2-b818-234bfb09d015" name="Default Changelist" comment="" />
+      <created>1648170471624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648170471624</updated>
+      <workItem from="1648170472849" duration="486000" />
+      <workItem from="1648171288795" duration="20000" />
+      <workItem from="1648171569914" duration="29000" />
+      <workItem from="1648171907117" duration="1399000" />
+      <workItem from="1648272852882" duration="7000" />
+      <workItem from="1648778597716" duration="12000" />
+      <workItem from="1649986905528" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

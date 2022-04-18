@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab05</string>
+    <string name="hello">你好，同学</string>
+    <string name="text">我是按钮</string>
+
+    <item name="txt" type="id">txt</item>
+</resources>

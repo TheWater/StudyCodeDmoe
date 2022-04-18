@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="dao.Student">
+<!--        1. 普通注入-->
+        <property name="name" value="Tom"/>
+<!--        2. Bean注入-->
+        <property name="address" ref="address"/>
+        <!--            3. 数组注入-->
+        <property name="books">
+            <array>
+                <value>红楼们</value>
+                <value>西游记</value>
+                <value>水浒传</value>
+            </array>
+        </property>
+<!--        4. List注入-->
+        <property name="hobbys">
+            <list>
+                <value>听歌</value>
+                <value>唱歌</value>
+            </list>
+        </property>
+<!--        5. Map注入-->
+        <property name="card">
+            <map>
+                <entry key="身份证" value="123456"/>
+                <entry key="银行卡" value="7890"/>
+            </map>
+        </property>
+
+<!--        6. Set注入-->
+        <property name="game">
+            <set>
+                <value>LOL</value>
+                <value>COC</value>
+            </set>
+        </property>
+
+<!--        7. null注入-->
+        <property name="wife">
+            <null></null>
+        </property>
+        
+        <property name="info">
+            <props>
+                <prop key="学号">2040129125</prop>
+                <prop key="性别">女</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="address" class="dao.Address">
+        <property name="address" value="广州软件学院"/>
+    </bean>
+
+
+
+
+</beans>
