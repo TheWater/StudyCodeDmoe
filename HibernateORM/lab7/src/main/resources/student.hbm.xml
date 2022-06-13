@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="Student" table="student" entity-name="newstu">
+        <meta attribute="class-description">
+            This class contains the employee detail.
+        </meta>
+        <id name="sid" type="long" column="sid">
+        </id>
+        <property name="sname"/>
+        <dynamic-component name="saddress"></dynamic-component>
+        <many-to-one name="teacher" column="teacherID" class="Teacher" cascade="all"/>
+    </class>
+    <class name="Student" table="ormlab" entity-name="oldsbu">
+        <id name="sid" column="sid" type="long">
+        </id>
+        <property name="sname"/>
+        <dynamic-component name="saddress">
+        </dynamic-component>
+        <many-to-one name="teacher" column="teacherID" class="Teacher" cascade="all"/>
+    </class>
+</hibernate-mapping>

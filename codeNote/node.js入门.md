@@ -181,3 +181,36 @@ const demo=require('./demo.js')
  ![](img/2022-04-05-15-15-31.png)
 
  好处：防止全局变量污染的问题
+
+ ## 06 Mysql数据库连接
+### 6.1 项目中操作数据库步骤
+1. 安装第三方模块
+2. 通过模块连接
+3. 通过模块执行SQL语句
+
+### 6.2 配置mysql模块
+![](img/2022-04-18-11-55-47.png)
+### 6.3 数据库
+
+~~~javascript
+// 测试mysql模块能否正常规则
+db.query('select 1',(err,results)=>{
+  if(err) return console.log(err.message);
+  console.log(results);
+})
+~~~
+
+![](img/2022-04-18-12-05-21.png)
+
+
+
+## 前后端的身份认证
+### JWT 目前最流行的跨域认证解决方案
+![](img/2022-06-04-18-20-46.png)
+**JWT的组成部分**
+ 通常由三部分组成，分别是Header、Payload、Signature，分别由‘，’分割
+
+ npm i jsonwebtoken -S   //生产JWT字符串
+ npm i express-jwt –S      //将JWT字符串解析还原成JSON
+
+ ![](img/2022-06-04-18-33-48.png)

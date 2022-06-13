@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0}
+        .tabs{width: 300px;height:200px;margin: 20px auto;background-color: #f0f0f0;}
+        .tabs li.active{color: red;background-color: yellow;}
+        .tabs li{float: left;list-style: none;height:30px;width: 100px;line-height:30px;text-align: center;background-color: yellowgreen;cursor: pointer}
+    </style>
+</head>
+<body>
+<div id="app">
+    <tabs :tabs="tabs" :cons="cons" ></tabs>
+</div>
+
+<script src="js/vue.global.js"></script>
+<script>
+   const app= Vue.createApp({
+       data(){
+           return{
+               tabs:['a','b','c'],
+               cons:['aaa','bbb','ccc']
+           }
+       }
+   })
+   app.component('tabs',{
+       data(){
+           return{
+               currentIndex:0
+           }
+       },
+       props:{
+           tabs:{type:Array},
+           cons:{type:Array}
+       },
+       template:`
+         <div class="tabs">
+            <ul class="tabBtn">
+              <li
+                  v-for="(item,index) in tabs"
+                  :key="item.id"
+                  @click="liClick(index)"
+                  :class="{active:currentIndex==index}"
+              >
+                {{item}}
+              </li>
+            </ul>
+            <div class="tabCon">
+              <div
+                  v-for="(value,i) in cons"
+                  :key="value.id"
+                  v-show="currentIndex==i"
+              >{{value}}
+              </div>
+            </div>
+         </div>
+       `,
+       methods:{
+           liClick(i){
+               this.currentIndex=i
+           }
+       }
+
+   })
+
+   app.mount('#app')
+</script>
+</body>
+</html>

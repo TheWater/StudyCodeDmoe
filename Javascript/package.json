@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "element-ui": "^2.15.8",
     "express": "^4.17.3",
     "mysql": "^2.18.1"
   }

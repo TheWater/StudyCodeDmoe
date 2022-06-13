@@ -6,10 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lab08_持久层实现-jdbc" />
+        <module name="lab10_SpringMVC入门程序" />
+        <module name="lab6" />
         <module name="lab04_Ioc与DI配置" />
         <module name="lab05_代理模式" />
         <module name="lab07_AOP实现方法（自定义类与注解）" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lab10" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

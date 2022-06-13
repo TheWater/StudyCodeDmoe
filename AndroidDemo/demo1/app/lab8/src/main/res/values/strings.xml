@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lab8</string>
+    <string name="text1">勿以善小而不为</string>
+    <string name="text2">勿以恶小而为之</string>
+    <string name="str1">浅紫</string>
+    <string name="str2">中紫</string>
+    <string name="str3">深紫</string>
+    <string name="str4">浅绿</string>
+    <string name="str5">深绿</string>
+    <string name="str6">黑色</string>
+    <string name="str7">白色</string>
+</resources>

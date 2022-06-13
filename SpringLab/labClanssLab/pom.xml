@@ -12,6 +12,9 @@
         <module>lab04_Ioc与DI配置</module>
         <module>lab05_代理模式</module>
         <module>lab07_AOP实现方法（自定义类与注解）</module>
+        <module>lab08_持久层实现-jdbc</module>
+        <module>lab6_AOP②原理详解、传统实现方式</module>
+        <module>lab10_SpringMVC入门程序</module>
     </modules>
 
     <properties>
@@ -27,11 +30,22 @@
             <artifactId>spring-webmvc</artifactId>
             <version>5.3.16</version>
         </dependency>
-<!--        导入aop包-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <!--suppress UnresolvedMavenProperty -->
+            <version>5.2.3.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.9</version>
+        </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>1.9.5</version>
         </dependency>
+
     </dependencies>
 </project>

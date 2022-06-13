@@ -1,0 +1,42 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <!--
+        name:模型的全名称
+        table是数据库中关联的表名
+    -->
+    <class name="org.example.pojo.Student" table="user">
+        <!--
+            id标签，设置表的主键
+            name:模型属性名
+            column：表中的字段名
+            将user模型中的id属性映射到表中的id字段
+        -->
+        <id name="id" column="id">
+            <!--
+                generator:id的生成策略
+                class=
+                      sequence:一般在oracle数据库才用，自动增长标识
+                      native:
+                          如果是mysql数据库，id会自动增长
+                          如果是oracle数据库，会自动增长，使用sequence
+                      increment:也会自动增长id,但是它的这种增长是自己Hibernate实现
+                           执行select max(id) 查询，这种会有线程并发问题
+                      uuid:一个长字符串,需要把模型的id改成字符串
+                         保存的时候，不用自己设置ID,hibernate会设置id
+                      assigned:要手动设置id属性
+             -->
+            <generator class="native"></generator>
+        </id>
+
+        <!--
+            如果模型的属性和数据库的列名一样，就不用写column
+            User模型中的username属性映射到表中的username字段
+            User模型中的password属性映射到表中的password字段
+            type手动设置表中的字段类型，默认使用的User对象中的属性对应的类型，一般不设置
+        -->
+        <property name="name" column="name" type='string'></property>
+        <property name="age" column="age" type="string"></property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    mysql数据源配置-->
+<!--   1.  Spring提供了一种数据源：-->
+<!--    org.springframework.jdbc.datasource.DriverManagerDataSource-->
+<!--    Spring提供的DriverManagerDataSource数据源没有提供连接池的功能，只适合用来作简单的单机连接测试，不适合真正项目中。-->
+<!--    <bean id="dataSource"-->
+<!--        class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
+<!--        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>-->
+<!--        <property name="username" value="root"/>-->
+<!--        <property name="password" value="010505"/>-->
+
+<!--    </bean>-->
+
+
+<!--        2. Druid数据源置换：Druid是阿里提供的数据源，有连接池，且效率高-->
+    <bean id="myDataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/ormlab?serverTimezone=GMT"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="010505"></property>
+    </bean>
+
+    <bean id="userDao" class="com.dao.UserDao">
+        <property name="dataSource" ref="myDataSource"></property>
+    </bean>
+
+    <bean id="userDaoTemplate" class="com.dao.UserDao_JdbcTemplate">
+        <property name="dataSource" ref="myDataSource"></property>
+    </bean>
+
+
+
+</beans>

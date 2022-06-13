@@ -5,6 +5,7 @@
     "*.wxml": "html",
     "*.wxss": "css",
     "iostream": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "new": "cpp"
   }
 }

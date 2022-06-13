@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing">5dp</dimen>
+    <!-- 补充定义GridView组件中每个单元格的宽度、高度 -->
+    <dimen name="width">60dp</dimen>
+    <dimen name="height">60dp</dimen>
+    <!-- 定义主程序的标题的字体大小 -->
+    <dimen name="title_font_size">25sp</dimen>
+</resources>
